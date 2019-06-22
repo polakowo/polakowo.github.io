@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css?family=Yantramanav:300,300i,900");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css");
+
+:root {
+    --jumbotron-padding-y: 3rem;
+}
+
+.jumbotron {
+    padding-top: var(--jumbotron-padding-y);
+    padding-bottom: var(--jumbotron-padding-y);
+    margin-bottom: 0;
+    background-color: #fff;
+    -moz-box-shadow: inset 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: inset 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+    box-shadow: inset 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+}
+
+@media (min-width: 768px) {
+    .jumbotron {
+        padding-top: calc(var(--jumbotron-padding-y) * 1.5);
+        padding-bottom: calc(var(--jumbotron-padding-y) * 1.5);
+    }
+}
+
+.jumbotron p:last-child {
+    margin-bottom: 0;
+}
+
+.jumbotron-heading {
+    font-weight: 300;
+}
+
+.jumbotron .container {
+    max-width: 40rem;
+}
+
+footer {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+footer p {
+    margin-bottom: .25rem;
+}
+
+.box-shadow {
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+.card-img-top {
+    width: 70%;
+    max-height: 150px;
+    object-fit: contain;
+}
+
+.gradient {
+    will-change: background;
+}
+
+.soft-shadow {
+    text-shadow: rgba(2, 2, 2, 0.1) 0em 0.05em 0.075em;
+}
+
+.jumbotron {
+    font-family: 'Yantramanav', sans-serif;
+    text-align: center;
+}
+
+.jumbotron h1 {
+    font-size: 3em;
+    font-weight: 600;
+    line-height: 1em;
+}
+
+.blinking-cursor {
+    -webkit-animation: 1s blink infinite;
+    -moz-animation: 1s blink infinite;
+    -ms-animation: 1s blink infinite;
+    -o-animation: 1s blink infinite;
+    animation: 1s blink infinite;
+}
+
+.project {
+    cursor: pointer;
+}
+
+@keyframes blink {
+    to {
+        opacity: .0;
+    }
+}
+
+@keyframes blink {
+    to {
+        opacity: .0;
+    }
+}
+
+@-moz-keyframes blink {
+    to {
+        opacity: .0;
+    }
+}
+
+@-webkit-keyframes blink {
+    to {
+        opacity: .0;
+    }
+}
+
+@-ms-keyframes blink {
+    to {
+        opacity: .0;
+    }
+}
+
+@-o-keyframes blink {
+    to {
+        opacity: .0;
+    }
+}

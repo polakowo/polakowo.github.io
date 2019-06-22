@@ -1,157 +1,265 @@
 cards = [{
-    "img_url": "img/sap-hana.png",
-    "title": "OCCUPATIONAL FRAUD DETECTION",
-    "description": "Detect patterns of occupational fraud activity in ERP systems using SAP HANA",
-    "tags": ['SAP HANA', 'SAP ERP', 'XSJS', 'SAPUI5'],
+    "img_url": "img/idt.svg",
+    "title": "Design and development of a platform for analyzing digital transformation projects",
+    "description": `
+    <p>
+        The primary goal of this project was to study the current and ongoing digital transformation of organizations.
+        First, we identified crucial success and failure factors of digital transformation initiatives.
+        We used data mining to determine their empirical significance and uncover hidden relationships.
+        Second, we conducted a comprehensive network analysis designed to examine corporate collaboration on digital transformation activities.
+        We also developed a software package in Python to decrease the barriers to performing the same analysis steps in the future.
+        Finally, we designed and developed an extensible software prototype capable of collecting, analyzing and organizing information on digital transformation projects.
+    </p>
+    <p>
+        The prototype was made specifically for the <a href="https://www.i17.in.tum.de/home/">Chair of Information Systems</a> at the Technical University in Munich.
+    </p>
+    `,
+    "background": "repeating-radial-gradient(circle, #26687F, #26687F 10px, #286D84 10px, #286D84 20px)",
+    "tags": ['Python', 'sklearn', 'NetworkX', 'NodeJS', 'JavaScript'],
+    "pictures": [
+        "img/pictures/idt1.png",
+        "img/pictures/idt2.png",
+        "img/pictures/idt3.png",
+        "img/pictures/idt4.png",
+        "img/pictures/idt5.png"
+    ],
+    "videos": [],
     "url": "",
-    "section": "Big Data",
-    "category": "projects"
+    "section": "Master's Thesis"
 }, {
-    "img_url": "img/idt.jpg",
-    "title": "DIGITAL TRANSFORMATION LANDSCAPE ANALYSIS",
-    "description": "A holistic analysis of simultaneous digital transformation of organizations",
-    "tags": ['NetworkX'],
+    "img_url": "img/saphana.png",
+    "title": "Detection of occupational fraud activity in ERP systems using SAP HANA",
+    "description": `
+    <p>
+        The objective of this work was investigation of occupational fraud activity in P2P business data and implementation of a prototype
+        for its detection - a comprehensive tool dedicated for fraud investigators and forensic accountants.
+        We applied a red-flag based approach to detect fraudulent patterns once fraud prevention has failed.
+        The prototype leverages the power of SAP HANA to process large volumes of ERP data blazingly fast.
+        In addition to processing capabilities, the tool offers a web interface with a rich, customizable UI.
+    </p>
+    <p>
+        The prototype was made in collaboration with <a href="https://www.i17.in.tum.de/en/research/projects/current-projects/sap-university-competence-center-ucc/">SAP UCC</a>.
+    </p>
+    `,
+    "background": "repeating-linear-gradient(to bottom, #3168AB, #3168AB 10px, #336EB3 10px, #336EB3 20px)",
+    "tags": ['SAP HANA', 'SAP ERP', 'SQLScript', 'XSJS', 'SAPUI5', 'JavaScript'],
+    "pictures": [
+        "img/pictures/hana1.png",
+        "img/pictures/hana2.png",
+        "img/pictures/hana3.png",
+    ],
+    "videos": [],
     "url": "",
-    "section": "Business",
-    "category": "projects"
+    "section": "Bachelor's Thesis"
+}, {
+    "img_url": "img/zeissimt.png",
+    "title": "Design and development of a mobile app for connecting Zeiss with its customers",
+    "description": `
+    <p>
+        Zeiss IMT is an iOS application prototype which aims to facilitate the communication and interaction between Zeiss Metrology centers and their potential customers.
+        The project life cycle was managed with Agile techniques (Scrum) and backed by communicating continuously to clients.
+        The process included object-oriented modeling and system design as well as the realization of graphical UIs, usability testing, continuous integration and delivery.
+        The responsibilities of mine also included server-side development and release management.
+    </p>
+    `,
+    "background": "white",
+    "tags": ['Swift', 'NodeJS'],
+    "pictures": [],
+    "videos": [{
+        "video": "https://www.youtube.com/embed/8wqAjsUedyg",
+        "img": "img/pictures/zeiss.png"
+    }],
+    "url": "",
+    "section": "Corporate Project"
+}, {
+    "img_url": "img/oscarobber.png",
+    "title": "Network and sentiment analysis applied on the IMDB database",
+    "description": "",
+    "background": "#0B1A2D",
+    "tags": ['sklearn', 'NetworkX', 'NLTK'],
+    "pictures": [],
+    "videos": [],
+    "url": "https://polakowo.github.io/oscarobber/",
+    "section": "Capstone Project"
+}, {
+    "img_url": "img/gtd-analysis.png",
+    "title": "Analysis of the most comprehensive open-source database on terrorist events",
+    "description": "",
+    "background": "repeating-linear-gradient(-45deg, #FDE457, #FDE457 20px, #FDDE4C 20px, #FDDE4C 40px)",
+    "tags": ['sklearn', 'D3.js'],
+    "pictures": [],
+    "videos": [],
+    "url": "img/gtd-analysis.png",
+    "section": "Capstone Project"
+}, {
+    "img_url": "img/datadocs.svg",
+    "title": "Collaborative documentation platform for and from data scientists",
+    "description": "",
+    "background": "#659D7A",
+    "tags": [],
+    "pictures": [],
+    "videos": [],
+    "url": "",
+    "section": "Open Source Project"
+}, {
+    "img_url": "img/cryptoz.svg",
+    "title": "Package with visualization tools for tracking cryptocurrency markets",
+    "description": "",
+    "background": "#B7E5FC",
+    "tags": [],
+    "pictures": [],
+    "videos": [],
+    "url": "https://github.com/polakowo/cryptoz",
+    "section": "Open Source Project"
+}, {
+    "img_url": "img/vector-bt.svg",
+    "title": "Package for backtesting and trade optimization",
+    "description": "",
+    "background": "#FBD249",
+    "tags": [],
+    "pictures": [],
+    "videos": [],
+    "url": "https://github.com/polakowo/vector-bt",
+    "section": "Open Source Project"
+}, {
+    "img_url": "img/amazon-reviews-sentiment-analysis.png",
+    "title": "Sentiment analysis of Amazon product reviews",
+    "description": "",
+    "background": "#232F3D",
+    "tags": ['fastai'],
+    "pictures": [],
+    "videos": [],
+    "url": "https://github.com/polakowo/mymlprojects/tree/master/amazon-reviews-sentiment-analysis",
+    "section": "ML Project"
 }, {
     "img_url": "img/1c-sales-prediction.png",
-    "title": "1C COMPANY SALES PREDICTION",
-    "description": "Predict total sales for every product and store in the next month",
+    "title": "Forecasting total sales for every product and store in the next month",
+    "description": "",
+    "background": "white",
     "tags": ['LGBM', 'CatBoost', 'Vowpal Wabbit', 'sklearn', 'fastai', 'stacking'],
-    "url": "https://github.com/polakowo/machine-learning/tree/master/projects/1c-sales-prediction",
-    "section": "Business",
-    "category": "projects"
+    "pictures": [],
+    "videos": [],
+    "url": "https://github.com/polakowo/mymlprojects/tree/master/1c-sales-prediction",
+    "section": "ML Project"
 }, {
     "img_url": "img/rossmann-sales-prediction.png",
-    "title": "ROSSMANN SALES PREDICTION",
-    "description": "Forecast daily Rossmann sales for up to six weeks in advance",
+    "title": "Forecasting daily Rossmann sales for up to six weeks in advance",
+    "description": "",
+    "background": "white",
     "tags": ['fastai'],
-    "url": "https://github.com/polakowo/machine-learning/tree/master/projects/rossmann-sales-prediction",
-    "section": "Business",
-    "category": "projects"
+    "pictures": [],
+    "videos": [],
+    "url": "https://github.com/polakowo/mymlprojects/tree/master/rossmann-sales-prediction",
+    "section": "ML Project"
 }, {
     "img_url": "img/credit-card-fraud-detection.png",
-    "title": "CREDIT CARD FRAUD DETECTION",
-    "description": "Recognize fraudulent credit card transactions with anomaly detection",
+    "title": "Detecting fraudulent credit card transactions with anomaly detection",
+    "description": "",
+    "background": "#65A7CB",
     "tags": ['sklearn', 'PyTorch', 'fastai'],
-    "url": "https://github.com/polakowo/machine-learning/tree/master/projects/credit-card-fraud-detection",
-    "section": "Business",
-    "category": "projects"
+    "pictures": [],
+    "videos": [],
+    "url": "https://github.com/polakowo/mymlprojects/tree/master/credit-card-fraud-detection",
+    "section": "ML Project"
 }, {
     "img_url": "img/movielens-recommendation.jpg",
-    "title": "MOVIE RECOMMENDER SYSTEM",
-    "description": "Build a movie recommender system using item-based collaborative filtering",
+    "title": "Movie recommendation system using item-based collaborative filtering",
+    "description": "",
+    "background": "#EF6937",
     "tags": ['fastai'],
-    "url": "https://github.com/polakowo/machine-learning/tree/master/projects/movielens-recommendation",
-    "section": "Business",
-    "category": "projects"
+    "pictures": [],
+    "videos": [],
+    "url": "https://github.com/polakowo/mymlprojects/tree/master/movielens-recommendation",
+    "section": "ML Project"
 }, {
-    "img_url": "img/gtd.png",
-    "title": "GLOBAL TERRORISM DATABASE",
-    "description": "Perform analysis on the most comprehensive open-source database on terrorist events",
-    "tags": ['sklearn', 'D3.js'],
-    "url": "https://polakowo.github.io/gtd-analysis/project/",
-    "section": "Social Data",
-    "category": "projects"
-}, {
-    "img_url": "img/imdb.jpg",
-    "title": "IMDB DATABASE",
-    "description": "Perform network and sentiment analysis on the IMDB database",
-    "tags": ['sklearn', 'NetworkX', 'NLTK'],
-    "url": "https://polakowo.github.io/oscarobber/",
-    "section": "Social Data",
-    "category": "projects"
-}, {
-    "img_url": "img/cryptoz.jpg",
-    "title": "CRYPTOCURRENCY MARKET TRACKING",
-    "description": "Track cryptocurrency markets with advanced visualization techniques",
-    "tags": [],
-    "url": "https://github.com/polakowo/cryptoz",
-    "section": "Trading",
-    "category": "projects"
-}, {
-    "img_url": "img/vector-bt.jpg",
-    "title": "BACKTESTING AND TRADE OPTIMIZATION",
-    "description": "Apply a trading system to historical data to find the best strategy",
-    "tags": [],
-    "url": "https://github.com/polakowo/vector-bt",
-    "section": "Trading",
-    "category": "projects"
-}, {
-    "img_url": "img/airbus-ship-segmentation.png",
-    "title": "AIRBUS SHIP SEGMENTATION",
-    "description": "Build a model that detects ships in satellite images",
+    "img_url": "img/airbus-ship-segmentation.jpg",
+    "title": "Detection and segmentation of ships in satellite images",
+    "description": "",
+    "background": "#223C75",
     "tags": ['fastai'],
-    "url": "https://github.com/polakowo/machine-learning/tree/master/projects/airbus-ship-segmentation",
-    "section": "Computer Vision",
-    "category": "projects"
+    "pictures": [],
+    "videos": [],
+    "url": "https://github.com/polakowo/mymlprojects/tree/master/airbus-ship-segmentation",
+    "section": "ML Project"
 }, {
-    "img_url": "img/planet-amazon-classification.jpg",
-    "title": "AMAZON FROM SPACE CLASSIFICATION",
-    "description": "Label satellite image chips with atmospheric conditions and various classes of land cover/land use",
+    "img_url": "img/planet-amazon-classification.svg",
+    "title": "Classification of satellite images for different atmospheric conditions and land cover and use",
+    "description": "",
+    "background": "#223C75",
     "tags": ['fastai'],
-    "url": "https://github.com/polakowo/machine-learning/tree/master/projects/planet-amazon-classification",
-    "section": "Computer Vision",
-    "category": "projects"
-}, {
-    "img_url": "img/amazon-reviews-sentiment-analysis.jpg",
-    "title": "AMAZON REVIEWS SENTIMENT ANALYSIS",
-    "description": "Analyze Amazon reviews to predict the sentiments that the reviews express",
-    "tags": ['fastai'],
-    "url": "https://github.com/polakowo/machine-learning/tree/master/projects/amazon-reviews-sentiment-analysis",
-    "section": "Natural Language Processing",
-    "category": "projects"
-}, {
-    "img_url": "img/optimized-transfer-learning.jpg",
-    "title": "OPTIMIZED TRANSFER LEARNING",
-    "description": "Use an optimized approach to fine-tune Keras models faster",
-    "tags": ['Keras'],
-    "url": "https://github.com/polakowo/machine-learning/tree/master/projects/optimized-transfer-learning",
-    "section": "Miscellaneous",
-    "category": "projects"
-}, {
-    "img_url": "img/visual-model-explanation.png",
-    "title": "VISUAL MODEL EXPLANATION",
-    "description": "Explain the workings of convolutional networks by using automated interpretation methods",
-    "tags": ['PyTorch', 'fastai'],
-    "url": "https://github.com/polakowo/machine-learning/tree/master/projects/visual-model-explanation",
-    "section": "Miscellaneous",
-    "category": "projects"
+    "pictures": [],
+    "videos": [],
+    "url": "https://github.com/polakowo/mymlprojects/tree/master/planet-amazon-classification",
+    "section": "ML Project"
 }]
 
-const generate_section = (name) => $(`
-    <div class="row">
-        <div class="col">
-            <hr>
-        </div>
-        <div class="col-auto">${name}</div>
-        <div class="col">
-            <hr>
+const generate_card = (item, i) => $(`
+    <div class="col-md-4">
+        <div class="card mb-4 box-shadow project" data-id="${i}">
+            <table style="height: 225px; width: 100%;">
+                <tbody>
+                    <tr>
+                        <td class="align-middle text-center" style="background: ${item.background};">
+                            <img class="card-img-top" src="${item.img_url}">
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="card-body">
+                <p class="card-text">${item.title}</p>
+                <div class="d-flex justify-content-between align-items-center">
+                    <small class="text-muted">${item.section}</small>
+                </div>
+            </div>
         </div>
     </div>
 `)
-const generate_row = () => $('<div class="row"></div>')
-const generate_card = (item) => $(`
-    <div class="col-md-4">
-        <div class="card mb-4 box-shadow">
-            <div class="img-container">
-                <img class="card-img-top" src="${item.img_url}">
-                <div class="text-overlay">
-                    <span>${item.title}</span>
-                </div>
-            </div>
-            <div class="card-body">
-                <p class="card-text">${item.description}</p>
-                ${item.tags.length > 0 ? `<p class="card-text">${item.tags.map(
-                    tag => `<span class="badge badge-info">${tag}</span>`).join(' ')}</p>` : ''}
-                <div class="d-flex justify-content-between align-items-center">
-                    <div class="btn-group">
-                        ${item.url ? `<a href="${item.url}"
-                            target="_blank" role="button"
-                            class="btn btn-sm btn-outline-secondary">View</a>` : `<a href="#"
-                            target="_blank" role="button"
-                            class="btn btn-sm btn-secondary disabled">Private</a>`}
+const generate_details = (item, i) => $(`
+    <div class="row">
+        <div class="col-md-8 offset-md-2">
+            <div class="collapse" data-id="${i}">
+                <div class="card card-body mb-5">
+                    <div class="card-text">
+                        <small>Description</small>
+                        ${item.description}
+                    </div>
+                    ${item.tags.length > 0 ? `
+                        <small>Tags</small>
+                        <p class="card-text">${item.tags.map(tag => `<span class="badge badge-pill badge-light">${tag}</span>`).join(' ')}</p>` 
+                    : ''}
+                    ${item.pictures.length > 0 ? `
+                        <small>Images</small>
+                        <div class="row">
+                            <div class="col-sm-8 offset-sm-2">
+                                <div class="row">
+                                    ${item.pictures.map(path => (
+                                        `<a href="${path}" data-toggle="lightbox" data-gallery="gallery" class="col-sm-3">
+                                            <img src="${path}" class="img-fluid img-thumbnail">
+                                        </a>`
+                                    )).join('')}
+                                </div>
+                            </div>
+                        </div>` 
+                    : ``}
+                    ${item.videos.length > 0 ? `
+                        <small>Videos</small>
+                        <div class="row">
+                            <div class="col-sm-8 offset-sm-2">
+                                <div class="row">
+                                    ${item.videos.map(path => (
+                                        `<a href="${path.video}" data-toggle="lightbox" data-gallery="gallery" class="col-sm-3">
+                                            <img src="${path.img}" class="img-fluid img-thumbnail">
+                                        </a>`
+                                    )).join('')}
+                                </div>
+                            </div>
+                        </div>` 
+                    : ``}
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            ${item.url ? `<a href="${item.url}"target="_blank" role="button" 
+                            class="btn btn-sm btn-outline-secondary">View</a>` : ``}
+                        </div>
                     </div>
                 </div>
             </div>
@@ -159,14 +267,45 @@ const generate_card = (item) => $(`
     </div>
 `)
 
-sections = []
-cards.forEach((item, i) => {
-    section_id = `${item.category}-${item.section}`
-    $container = $(`#${item.category}-container`)
-    if (!sections.includes(section_id)) {
-        sections.push(section_id)
-        $container.append(generate_section(item.section))
-        $container.append(generate_row())
+function collapse() {
+    const id = $(this).data('id')
+    const $details = $(`.collapse[data-id="${id}"]`)
+    const shown = $details.hasClass('show')
+
+    if ($('.collapse.show').length) {
+        $('.collapse.show').on('hidden.bs.collapse', function () {
+            $('.collapse').off('hidden.bs.collapse')
+            if (!shown) {
+                $details.collapse('show')
+                $(`.project[data-id!="${id}"]`).css('opacity', 0.3)
+            }
+        })
+        $('.collapse.show').collapse('hide')
+        $('.project').css('opacity', 1.0)
+    } else {
+        $details.collapse('show')
+        $(`.project[data-id!="${id}"]`).css('opacity', 0.3)
     }
-    $container.find('div.row:last').append(generate_card(item))
+}
+
+$(document).ready(function () {
+    let $currentRow = null;
+    cards.forEach((item, i) => {
+        if (i % 3 == 0) {
+            const $container = $(`#projects-container`)
+            $currentRow = $('<div class="row"></div>')
+            $container.append($currentRow)
+        }
+        $currentRow.append(generate_card(item, i))
+        $currentRow.parent().append(generate_details(item, i))
+        $(`.project[data-id="${i}"]`).on("click", collapse);
+    })
 })
+
+$(document).on('click', '[data-toggle="lightbox"]', function (event) {
+    event.preventDefault();
+    $(this).ekkoLightbox({
+        alwaysShowClose: true,
+        showArrows: false
+    });
+});
