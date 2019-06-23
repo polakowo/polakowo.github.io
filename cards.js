@@ -74,9 +74,13 @@ cards = [{
 }, {
     "img_url": "img/oscarobber.png",
     "title": "Network and sentiment analysis applied on the IMDB database",
-    "description": "",
+    "description": `
+    <p>
+        Performed a comprehensive analysis on IMDB dataset
+    </p>
+    `,
     "background": "#0B1A2D",
-    "tags": ['sklearn', 'NetworkX', 'NLTK'],
+    "tags": ['Python', 'sklearn', 'NetworkX', 'NLTK'],
     "pictures": [],
     "videos": [],
     "url": "https://polakowo.github.io/oscarobber/",
@@ -86,7 +90,7 @@ cards = [{
     "title": "Analysis of the most comprehensive open-source database on terrorist events",
     "description": "",
     "background": "repeating-linear-gradient(-45deg, #FDE457, #FDE457 20px, #FDDE4C 20px, #FDDE4C 40px)",
-    "tags": ['sklearn', 'D3.js'],
+    "tags": ['Python', 'sklearn', 'JavaScript', 'D3.js'],
     "pictures": [],
     "videos": [],
     "url": "img/gtd-analysis.png",
@@ -129,7 +133,7 @@ cards = [{
     "tags": ['fastai'],
     "pictures": [],
     "videos": [],
-    "url": "https://github.com/polakowo/mymlprojects/tree/master/amazon-reviews-sentiment-analysis",
+    "url": "https://github.com/polakowo/mlprojects/tree/master/amazon-reviews-sentiment-analysis",
     "section": "ML Project"
 }, {
     "img_url": "img/1c-sales-prediction.png",
@@ -139,7 +143,7 @@ cards = [{
     "tags": ['LGBM', 'CatBoost', 'Vowpal Wabbit', 'sklearn', 'fastai', 'stacking'],
     "pictures": [],
     "videos": [],
-    "url": "https://github.com/polakowo/mymlprojects/tree/master/1c-sales-prediction",
+    "url": "https://github.com/polakowo/mlprojects/tree/master/1c-sales-prediction",
     "section": "ML Project"
 }, {
     "img_url": "img/rossmann-sales-prediction.png",
@@ -149,7 +153,7 @@ cards = [{
     "tags": ['fastai'],
     "pictures": [],
     "videos": [],
-    "url": "https://github.com/polakowo/mymlprojects/tree/master/rossmann-sales-prediction",
+    "url": "https://github.com/polakowo/mlprojects/tree/master/rossmann-sales-prediction",
     "section": "ML Project"
 }, {
     "img_url": "img/credit-card-fraud-detection.png",
@@ -159,7 +163,7 @@ cards = [{
     "tags": ['sklearn', 'PyTorch', 'fastai'],
     "pictures": [],
     "videos": [],
-    "url": "https://github.com/polakowo/mymlprojects/tree/master/credit-card-fraud-detection",
+    "url": "https://github.com/polakowo/mlprojects/tree/master/credit-card-fraud-detection",
     "section": "ML Project"
 }, {
     "img_url": "img/movielens-recommendation.jpg",
@@ -169,7 +173,7 @@ cards = [{
     "tags": ['fastai'],
     "pictures": [],
     "videos": [],
-    "url": "https://github.com/polakowo/mymlprojects/tree/master/movielens-recommendation",
+    "url": "https://github.com/polakowo/mlprojects/tree/master/movielens-recommendation",
     "section": "ML Project"
 }, {
     "img_url": "img/airbus-ship-segmentation.jpg",
@@ -179,7 +183,7 @@ cards = [{
     "tags": ['fastai'],
     "pictures": [],
     "videos": [],
-    "url": "https://github.com/polakowo/mymlprojects/tree/master/airbus-ship-segmentation",
+    "url": "https://github.com/polakowo/mlprojects/tree/master/airbus-ship-segmentation",
     "section": "ML Project"
 }, {
     "img_url": "img/planet-amazon-classification.svg",
@@ -189,12 +193,12 @@ cards = [{
     "tags": ['fastai'],
     "pictures": [],
     "videos": [],
-    "url": "https://github.com/polakowo/mymlprojects/tree/master/planet-amazon-classification",
+    "url": "https://github.com/polakowo/mlprojects/tree/master/planet-amazon-classification",
     "section": "ML Project"
 }]
 
 const generate_card = (item, i) => $(`
-    <div class="col-md-4">
+    <div class="col-xs-12 col-sm-6 col-lg-4">
         <div class="card mb-4 box-shadow project" data-id="${i}">
             <table style="height: 225px; width: 100%;">
                 <tbody>
@@ -216,7 +220,7 @@ const generate_card = (item, i) => $(`
 `)
 const generate_details = (item, i) => $(`
     <div class="row">
-        <div class="col-md-8 offset-md-2">
+        <div class="col-xs-12 col-lg-8 offset-lg-2">
             <div class="collapse" data-id="${i}">
                 <div class="card card-body mb-5">
                     <div class="card-text">
@@ -229,29 +233,29 @@ const generate_details = (item, i) => $(`
                     : ''}
                     ${item.pictures.length > 0 ? `
                         <small>Images</small>
-                        <div class="row">
-                            <div class="col-sm-8 offset-sm-2">
-                                <div class="row">
-                                    ${item.pictures.map(path => (
-                                        `<a href="${path}" data-toggle="lightbox" data-gallery="gallery" class="col-sm-3">
+                        <div class="container">
+                            <div class="row">
+                                ${item.pictures.map(path => (`
+                                    <div class="col-xs-6 col-sm-4 col-lg-3 mt-2">
+                                        <a href="${path}" data-toggle="lightbox" data-gallery="gallery">
                                             <img src="${path}" class="img-fluid img-thumbnail">
-                                        </a>`
-                                    )).join('')}
-                                </div>
+                                        </a>
+                                    </div>`
+                                )).join('')}
                             </div>
                         </div>` 
                     : ``}
                     ${item.videos.length > 0 ? `
                         <small>Videos</small>
-                        <div class="row">
-                            <div class="col-sm-8 offset-sm-2">
-                                <div class="row">
-                                    ${item.videos.map(path => (
-                                        `<a href="${path.video}" data-toggle="lightbox" data-gallery="gallery" class="col-sm-3">
+                        <div class="container">
+                            <div class="row">
+                                ${item.videos.map(path => (`
+                                    <div class="col-xs-6 col-sm-4 col-lg-3 mt-2">
+                                        <a href="${path.video}" data-toggle="lightbox" data-gallery="gallery">
                                             <img src="${path.img}" class="img-fluid img-thumbnail">
-                                        </a>`
-                                    )).join('')}
-                                </div>
+                                        </a>
+                                    </div>`
+                                )).join('')}
                             </div>
                         </div>` 
                     : ``}
@@ -288,10 +292,30 @@ function collapse() {
     }
 }
 
+function getBootstrapDeviceSize() {
+    return $('#users-device-size').find('div:visible').last().data('id');
+}
+
 $(document).ready(function () {
+    size = getBootstrapDeviceSize()
+    console.log(size)
+    everyth = null
+    switch (size) {
+        case 'xs':
+            everyth = 1
+            break
+        case 'sm':
+        case 'md':
+            everyth = 2
+            break
+        case 'lg':
+        case 'xl':
+            everyth = 3
+            break
+    }
     let $currentRow = null;
     cards.forEach((item, i) => {
-        if (i % 3 == 0) {
+        if (i % everyth == 0) {
             const $container = $(`#projects-container`)
             $currentRow = $('<div class="row"></div>')
             $container.append($currentRow)
