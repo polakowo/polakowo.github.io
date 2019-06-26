@@ -174,7 +174,7 @@ cards = [{
     "pictures": [],
     "videos": [],
     "url": "https://github.com/polakowo/mlprojects/tree/master/amazon-reviews-sentiment-analysis",
-    "section": "ML Project"
+    "section": "Personal Project"
 }, {
     "img_url": "img/1c-sales-prediction.png",
     "title": "Forecasting total sales for every product and store in the next month",
@@ -191,7 +191,7 @@ cards = [{
     "pictures": [],
     "videos": [],
     "url": "https://github.com/polakowo/mlprojects/tree/master/1c-sales-prediction",
-    "section": "ML Project"
+    "section": "Personal Project"
 }, {
     "img_url": "img/rossmann-sales-prediction.png",
     "title": "Forecasting daily Rossmann sales for up to six weeks in advance",
@@ -208,7 +208,7 @@ cards = [{
     "pictures": [],
     "videos": [],
     "url": "https://github.com/polakowo/mlprojects/tree/master/rossmann-sales-prediction",
-    "section": "ML Project"
+    "section": "Personal Project"
 }, {
     "img_url": "img/credit-card-fraud-detection.png",
     "title": "Detecting fraudulent credit card transactions with anomaly detection",
@@ -223,7 +223,7 @@ cards = [{
     "pictures": [],
     "videos": [],
     "url": "https://github.com/polakowo/mlprojects/tree/master/credit-card-fraud-detection",
-    "section": "ML Project"
+    "section": "Personal Project"
 }, {
     "img_url": "img/movielens-recommendation.jpg",
     "title": "Movie recommendation system using collaborative filtering",
@@ -238,7 +238,7 @@ cards = [{
     "pictures": [],
     "videos": [],
     "url": "https://github.com/polakowo/mlprojects/tree/master/movielens-recommendation",
-    "section": "ML Project"
+    "section": "Personal Project"
 }, {
     "img_url": "img/airbus-ship-segmentation.jpg",
     "title": "Detection and segmentation of ships in satellite images",
@@ -255,7 +255,7 @@ cards = [{
     "pictures": [],
     "videos": [],
     "url": "https://github.com/polakowo/mlprojects/tree/master/airbus-ship-segmentation",
-    "section": "ML Project"
+    "section": "Personal Project"
 }, {
     "img_url": "img/planet-amazon-classification.svg",
     "title": "Classification of satellite images for different atmospheric conditions and land cover and use",
@@ -271,7 +271,7 @@ cards = [{
     "pictures": [],
     "videos": [],
     "url": "https://github.com/polakowo/mlprojects/tree/master/planet-amazon-classification",
-    "section": "ML Project"
+    "section": "Personal Project"
 }]
 
 const generate_card = (item, i) => $(`
