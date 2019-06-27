@@ -1,14 +1,14 @@
 cards = [{
     "img_url": "img/idt.svg",
-    "title": "Design and development of a platform for analyzing digital transformation projects",
+    "title": "Research platform for analyzing digital transformation projects",
     "description": `
     <p>
         The primary goal of this project was to study the current and ongoing digital transformation of organizations.
         First, we identified crucial success and failure factors of digital transformation initiatives.
         We used data mining to determine their empirical significance and uncover hidden relationships.
         Second, we conducted a comprehensive network analysis designed to examine corporate collaboration on digital transformation activities.
-        We also developed a software package in Python to decrease the barriers to performing the same analysis steps in the future.
-        Finally, we designed and developed an extensible software prototype capable of collecting, analyzing and organizing information on digital transformation projects.
+        We also created a software package in Python to decrease the barriers to performing the same analysis steps in the future.
+        Finally, we designed and implemented an extensible software prototype capable of collecting, analyzing and organizing information on digital transformation projects.
     </p>
     <p>
         The prototype was made specifically for the <a href="https://www.i17.in.tum.de/home/">Chair of Information Systems</a> at the Technical University in Munich.
@@ -25,10 +25,10 @@ cards = [{
     ],
     "videos": [],
     "url": "",
-    "section": "Master's Thesis"
+    "section": "Master's Capstone"
 }, {
     "img_url": "img/saphana.png",
-    "title": "Detection of occupational fraud activity in ERP systems using SAP HANA",
+    "title": "Native SAP HANA application for detecting fraud activity in ERP data",
     "description": `
     <p>
         The objective of this work was investigation of occupational fraud activity in P2P business data and implementation of a prototype
@@ -50,10 +50,10 @@ cards = [{
     ],
     "videos": [],
     "url": "",
-    "section": "Bachelor's Thesis"
+    "section": "Bachelor's Capstone"
 }, {
     "img_url": "img/zeissimt.png",
-    "title": "Design and development of a mobile app for connecting Zeiss with its customers",
+    "title": "Mobile application for connecting Zeiss with its customers",
     "description": `
     <p>
         Zeiss IMT is an iOS application prototype which aims to facilitate the communication and interaction between Zeiss Metrology centers and their potential customers.
