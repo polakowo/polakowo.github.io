@@ -116,7 +116,7 @@ cards = [{
         The platform is based on <a href="https://github.com/facebook/Docusaurus">Facebook's Docusaurus</a> and allows for search, collaboration and knowledge sharing.
     </p>
     `,
-    "background": "#3f3f3f",
+    "background": "#656c7a",
     "tags": ['Documentation', 'Platform', 'Collaboration', 'Data Science', 'Docusaurus', 'React'],
     "pictures": [],
     "videos": [],
