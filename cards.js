@@ -25,7 +25,7 @@ cards = [{
     ],
     "videos": [],
     "url": "",
-    "section": "Master's Capstone"
+    "category": "Master's Capstone"
 }, {
     "img_url": "img/saphana.png",
     "title": "Native SAP HANA application for detecting fraud activity in ERP data",
@@ -50,7 +50,7 @@ cards = [{
     ],
     "videos": [],
     "url": "",
-    "section": "Bachelor's Capstone"
+    "category": "Bachelor's Capstone"
 }, {
     "img_url": "img/zeissimt.png",
     "title": "Mobile application for connecting Zeiss with its customers",
@@ -70,7 +70,55 @@ cards = [{
         "img": "img/pictures/zeiss.png"
     }],
     "url": "",
-    "section": "Corporate Project"
+    "category": "Corporate Project"
+}, {
+    "img_url": "img/yelp-3nf.svg",
+    "title": "Data pipeline with Airflow that transforms and loads gigs of Yelp data into Redshift",
+    "description": `
+    <p>
+        The designed data pipeline translates the non-relational Yelp dataset distributed over JSON files in Amazon S3 bucket, into a 3NF-normalized dataset stored on Amazon Redshift. 
+        The resulting schema ensures data consistency and referential integrity across tables, and is meant to be the source of truth for analytical queries and BI tools. 
+        Additionally, the data was enriched with demographics and weather data coming from third-party data sources.
+    </p>
+    `,
+    "background": "linear-gradient(to right, #485563, #29323c);",
+    "tags": ['Cloud', 'Data Warehouse', 'Apache Airflow', 'Apache Spark', 'Amazon Redshift', 'Amazon S3', 'Python'],
+    "pictures": [],
+    "videos": [],
+    "url": "https://github.com/polakowo/yelp-3nf",
+    "category": "Capstone Project"
+}, {
+    "img_url": "img/mlprojects.svg",
+    "title": "Collection of machine learning projects and Kaggle competitions",
+    "description": `
+    <p>
+         While taking MOOCs, I completed a set of personal machine learning projects to gain hands-on experience in ML.
+         This collection comprises of various topics: from forecasting sales to image segmentation.
+         Most of the projects are based on former Kaggle competitions for validation reasons.
+         Some projects, such as <a href="https://github.com/polakowo/mlprojects/tree/master/1c-sales-prediction">Forecasting monthly 1C sales</a>, are result of in-class competitions, where all baselines have been beaten.
+    </p>
+    `,
+    "background": "linear-gradient(to right, #e0eafc, #cfdef3);",
+    "tags": ['Machine Learning', 'Deep Learning', 'Python', 'fastai', 'PyTorch', 'TensorFlow'],
+    "pictures": [],
+    "videos": [],
+    "url": "https://github.com/polakowo/mlprojects",
+    "category": "Personal Projects"
+}, {
+    "img_url": "img/gtd-analysis.png",
+    "title": "Building interactive EDA tools for the Global Terrorism Database",
+    "description": `
+    <p>
+        The scope of this project was to provide dynamic visualizations with D3.js to identify and highlight hidden patterns of terrorist attacks around the world.
+        After carefully choosing data preprocessing steps and building an efficient front-end logic, we were able to serve a lot of diverse data and display rich animations, without sacrificing responsiveness.
+    </p>
+    `,
+    "background": "repeating-linear-gradient(-45deg, #FDE457, #FDE457 20px, #FDDE4C 20px, #FDDE4C 40px)",
+    "tags": ['Terrorism', 'Data Analysis', 'Visualization', 'Python', 'sklearn', 'JavaScript', 'D3.js'],
+    "pictures": [],
+    "videos": [],
+    "url": "https://polakowo.github.io/gtd-analysis/project/",
+    "category": "Capstone Project"
 }, {
     "img_url": "img/oscarobber.png",
     "title": "Network and sentiment analysis applied on the IMDB database",
@@ -80,7 +128,7 @@ cards = [{
         We used the data to study the collaboration network of co-star actors.
         In particular, we assembled an evolving social network by linking actors and science fiction movies together throughout history.
         After, we proceeded to calculate topological and non-topological metrics from this network, for example, whether actors tend to play in similar movies.
-        Finally, we applied NLP to study correlation between plots and ratings, extract important keywords, and perform sentiment analysis on user reviews.
+        Finally, we studied correlation between plots and ratings, extracted important keywords, and performed sentiment analysis on user reviews.
     </p>
     `,
     "background": "#0B1A2D",
@@ -88,27 +136,10 @@ cards = [{
     "pictures": [],
     "videos": [],
     "url": "https://polakowo.github.io/oscarobber/",
-    "section": "Capstone Project"
-}, {
-    "img_url": "img/gtd-analysis.png",
-    "title": "Analysis of the most comprehensive open-source database on terrorist events",
-    "description": `
-    <p>
-        The scope of this project was to (1) identify and highlight geographical and temporal patterns of terrorism,
-        (2) discover main determinants of successful terrorist attacks and their prevention,
-        and (3) provide visualization tools for the user to explore the data interactively.
-        After carefully choosing data preprocessing steps and building an efficient front-end logic, we were able to serve a lot of diverse data and display rich animations, without sacrificing responsiveness.
-    </p>
-    `,
-    "background": "repeating-linear-gradient(-45deg, #FDE457, #FDE457 20px, #FDDE4C 20px, #FDDE4C 40px)",
-    "tags": ['Terrorism', 'Data Analysis', 'Visualization', 'Python', 'sklearn', 'JavaScript', 'D3.js'],
-    "pictures": [],
-    "videos": [],
-    "url": "https://polakowo.github.io/gtd-analysis/project/",
-    "section": "Capstone Project"
+    "category": "Capstone Project"
 }, {
     "img_url": "img/datadocs.svg",
-    "title": "Collaborative documentation platform for and from data scientists",
+    "title": "Collaborative documentation platform for and from data enthusiasts",
     "description": `
     <p>
         The information on data science and machine learning grows every hour, with both theory and best practices being distributed over many websites, online books, and lengthy Medium articles.
@@ -121,7 +152,7 @@ cards = [{
     "pictures": [],
     "videos": [],
     "url": "https://polakowo.github.io/datadocs/",
-    "section": "Open Source Project"
+    "category": "Open Source Project"
 }, {
     "img_url": "img/cryptoz.svg",
     "title": "Package with visualization tools for tracking the cryptocurrency market",
@@ -140,7 +171,7 @@ cards = [{
     "pictures": [],
     "videos": [],
     "url": "https://github.com/polakowo/cryptoz",
-    "section": "Open Source Project"
+    "category": "Open Source Project"
 }, {
     "img_url": "img/vector-bt.svg",
     "title": "Package for backtesting and trade optimization",
@@ -159,119 +190,7 @@ cards = [{
     "pictures": [],
     "videos": [],
     "url": "https://github.com/polakowo/vector-bt",
-    "section": "Open Source Project"
-}, {
-    "img_url": "img/amazon-reviews-sentiment-analysis.png",
-    "title": "Sentiment analysis of Amazon product reviews",
-    "description": `
-    <p>
-        Transfer learning is an exciting concept but a difficult one to apply in NLP tasks.
-        Here we fine-tuned <a href="http://nlp.fast.ai/classification/2018/05/15/introducting-ulmfit.html">an AWD-LSTM model</a> for sentiment analysis on Amazon product reviews and achieved 95.8% accuracy of predictions whether the review was positive or not.
-    </p>
-    `,
-    "background": "#232F3D",
-    "tags": ['Transfer Learning', 'Product Reviews', 'Sentiment Analysis', 'NLP', 'Neural Networks', 'Python', 'fastai'],
-    "pictures": [],
-    "videos": [],
-    "url": "https://github.com/polakowo/mlprojects/tree/master/amazon-reviews-sentiment-analysis",
-    "section": "Personal Project"
-}, {
-    "img_url": "img/1c-sales-prediction.png",
-    "title": "Forecasting total sales for every product and store in the next month",
-    "description": `
-    <p>
-        Sales forecasting plays a major role in a company's success.
-        The goal of this project was to predict total sales for every product and store in the next month.
-        This challenging time-series problem was tackled by using GBMs, linear models, neural networks, and ensembles. 
-        The project was part of the <a href="https://www.kaggle.com/c/competitive-data-science-predict-future-sales">Predict Future Sales competition</a>.
-    </p>
-    `,
-    "background": "white",
-    "tags": ['Competition', 'Sales Forecasting', 'Time Series', 'Neural Networks', 'Python', 'LGBM', 'CatBoost', 'Vowpal Wabbit', 'sklearn', 'fastai', 'Ensembling'],
-    "pictures": [],
-    "videos": [],
-    "url": "https://github.com/polakowo/mlprojects/tree/master/1c-sales-prediction",
-    "section": "Personal Project"
-}, {
-    "img_url": "img/rossmann-sales-prediction.png",
-    "title": "Forecasting daily Rossmann sales for up to six weeks in advance",
-    "description": `
-    <p>
-        The <a href="https://www.kaggle.com/c/rossmann-store-sales">Rossmann Store Sales competition</a> was another time-series competition where one had to predict future Rossmann sales. 
-        Our solution steps included data exploration, data preparation, and modeling with neural networks.
-        We additionaly explored embeddings, which gave us some interesting insights:
-        for example, the embeddings of cities learned by the model and visualized on a 2D plot exactly resembled the map of Germany.
-    </p>
-    `,
-    "background": "white",
-    "tags": ['Competition', 'Sales Forecasting', 'Time Series', 'Neural Networks', 'Embeddings', 'Python', 'fastai'],
-    "pictures": [],
-    "videos": [],
-    "url": "https://github.com/polakowo/mlprojects/tree/master/rossmann-sales-prediction",
-    "section": "Personal Project"
-}, {
-    "img_url": "img/credit-card-fraud-detection.png",
-    "title": "Detecting fraudulent credit card transactions with anomaly detection",
-    "description": `
-    <p>
-        The <a href="https://www.kaggle.com/mlg-ulb/creditcardfraud">Credit Card Fraud Detection competition</a> was a perfect match for learning about state-of-the-art anomaly detection methods.
-        In this project, we trained an autoencoder to detect fraudulent credit card transactions and compared its performance to other methods.
-    </p>
-    `,
-    "background": "white",
-    "tags": ['Competition', 'Fraud', 'Transactions', 'Anomaly Detection', 'Autoencoders', 'Neural Networks', 'Python', 'sklearn', 'PyTorch', 'fastai'],
-    "pictures": [],
-    "videos": [],
-    "url": "https://github.com/polakowo/mlprojects/tree/master/credit-card-fraud-detection",
-    "section": "Personal Project"
-}, {
-    "img_url": "img/movielens-recommendation.jpg",
-    "title": "Movie recommendation system using collaborative filtering",
-    "description": `
-    <p>
-        This project aimed to build a movie recommendation mechanism on top of the <a href="https://grouplens.org/datasets/movielens/">MovieLens dataset</a>.
-        The main focus was on collaborative filtering using (item and user) embeddings as a way for the model to learn latent factors.
-    </p>
-    `,
-    "background": "#EF6937",
-    "tags": ['Movies', 'Recommender System', 'Collaborative Filtering', 'User Preferences', 'Embeddings', 'Neural Networks', 'Python', 'fastai'],
-    "pictures": [],
-    "videos": [],
-    "url": "https://github.com/polakowo/mlprojects/tree/master/movielens-recommendation",
-    "section": "Personal Project"
-}, {
-    "img_url": "img/airbus-ship-segmentation.jpg",
-    "title": "Detection and segmentation of ships in satellite images",
-    "description": `
-    <p>
-        The challenge of the <a href="https://www.kaggle.com/c/airbus-ship-detection">Airbus Ship Detection Challenge competition</a> was in building a model that detects all ships in satellite images as quickly as possible.
-        For this, we choose a Dynamic Unet with (a pre-trained) ResNet34 backbone and applied a set of hacks.
-        After training the model over a night, we achieved some remarkable performance (top 50 as of today).
-        In addition, we made a tiny web application for demonstration purposes.
-    </p>
-    `,
-    "background": "#223C75",
-    "tags": ['Competition', 'Satellite Imagery', 'Ship Detection', 'Image Segmentation', 'Neural Networks', 'Transfer Learning', 'Python', 'fastai', 'Web App', 'Starlette'],
-    "pictures": [],
-    "videos": [],
-    "url": "https://github.com/polakowo/mlprojects/tree/master/airbus-ship-segmentation",
-    "section": "Personal Project"
-}, {
-    "img_url": "img/planet-amazon-classification.svg",
-    "title": "Classification of satellite images for different atmospheric conditions and land cover and use",
-    "description": `
-    <p>
-        Similar to the Airbus competition, the <a href="https://www.kaggle.com/c/planet-understanding-the-amazon-from-space">Planet: Understanding the Amazon from Space challenge</a> was about processing satellite images. 
-        Here, the image chips with various atmospheric conditions and classes of land cover/land use had to be tagged (i.e. a multi-label classification task).
-        We trained a simple, fine-tuned ResNet50 to achieve good performance.
-    </p>
-    `,
-    "background": "#223C75",
-    "tags": ['Competition', 'Satellite Imagery', 'Image Classification', 'Tagging', 'Neural Networks', 'Transfer Learning', 'Python', 'fastai', 'Web App', 'Starlette'],
-    "pictures": [],
-    "videos": [],
-    "url": "https://github.com/polakowo/mlprojects/tree/master/planet-amazon-classification",
-    "section": "Personal Project"
+    "category": "Open Source Project"
 }]
 
 const generate_card = (item, i) => $(`
@@ -289,7 +208,7 @@ const generate_card = (item, i) => $(`
             <div class="card-body">
                 <p class="card-text">${item.title}</p>
                 <div class="d-flex justify-content-between align-items-center">
-                    <small class="text-muted">${item.section}</small>
+                    <small class="text-muted">${item.category}</small>
                 </div>
             </div>
         </div>
