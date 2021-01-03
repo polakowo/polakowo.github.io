@@ -318,7 +318,7 @@ const cards = [{
     "tab": "projects"
 }, {
     "img_url": "img/gem.svg",
-    "title": "How to Backtest at Scale to Discover Hidden Trading Gems",
+    "title": "Stop Loss, Trailing Stop, or Take Profit? 2 Million Backtests Shed Light",
     "description": "<p>In this article, I utilized large-scale backtesting with vectorbt to explore the performance of the most common stop signals for different cryptocurrencies, time periods, and stop values.</p>",
     "background": "#1F2536",
     "tags": [
