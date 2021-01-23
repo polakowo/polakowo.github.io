@@ -192,7 +192,7 @@ const cards = [{
     "img_url": "img/gpt2bot.svg",
     "title": "Your new Telegram buddy based on transformers",
     "description": "<p>gpt2bot is a multi-turn Telegram chatbot based on transformers. In December 2019, Microsoft released a model called DialoGPT, which has been trained on gigabytes of Reddit discussions. Shortly after, I built a Telegram chatbot around it, so everyone could run a Colab notebook and start talking to his new virtual buddy in Telegram.</p>",
-    "background": "#EF6444",
+    "background": "#F07C40",
     "tags": [
         "AI",
         "Transformers",
