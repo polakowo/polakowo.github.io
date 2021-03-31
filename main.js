@@ -300,23 +300,6 @@ const cards = [{
     "category": "Capstone Project",
     "tab": "projects"
 }, {
-    "img_url": "img/cryptoz.svg",
-    "title": "Python library for visualizing and tracking cryptocurrency markets",
-    "description": "<p>You might have encountered situations where Bitcoin was outpacing alts after a market-wide correction or where Bitcoin stagnated and alts suddenly boomed. The cryptocurrency market is a complex, dynamic ecosystem, where correlations appear and disappear with time. Most of the standard tools out there lack the ability to visualize such relationships, while observing each coin in isolation brings a little value. That's why I created an open-source Python package with tools such as time-based heatmaps. For example, you can easily compare Bollinger Bands of dozens of coins without having to build ugly line charts.</p>",
-    "background": "#FBD249",
-    "tags": [
-        "Cryptocurrency",
-        "Trading",
-        "Market",
-        "Visualization",
-        "Python"
-    ],
-    "pictures": [],
-    "videos": [],
-    "url": "https://github.com/polakowo/cryptoz",
-    "category": "Open Source Project",
-    "tab": "projects"
-}, {
     "img_url": "img/box-chart.svg",
     "title": "Stop Loss, Trailing Stop, or Take Profit? 2 Million Backtests Shed Light",
     "description": "<p>In this article, I utilized large-scale backtesting with vectorbt to explore the performance of the most common stop signals for different cryptocurrencies, time periods, and stop values.</p>",
