@@ -302,7 +302,7 @@ const cards = [{
 }, {
     "img_url": "img/box-chart.svg",
     "title": "Stop Loss, Trailing Stop, or Take Profit? 2 Million Backtests Shed Light",
-    "description": "<p>In this article, I utilized large-scale backtesting with vectorbt to explore the performance of the most common stop signals for different cryptocurrencies, time periods, and stop values.</p>",
+    "description": "<p>In this article, I show how to utilize large-scale backtesting with VectorBT to explore the performance of the most common stop signals for different cryptocurrencies, time periods, and stop values.</p>",
     "background": "#1F2536",
     "tags": [
         "Trading",
@@ -314,6 +314,23 @@ const cards = [{
     "pictures": [],
     "videos": [],
     "url": "https://polakowo.medium.com/stop-loss-trailing-stop-or-take-profit-2-million-backtests-shed-light-dde23bda40be",
+    "category": "Medium Article",
+    "tab": "articles"
+}, {
+    "img_url": "img/line-chart.svg",
+    "title": "SuperFast SuperTrend",
+    "description": "<p>In this article, I show how to design and implement a SuperTrend indicator, and gradually optimize it towards a never-seen performance using TA-Lib, Numba, and VectorBT PRO.</p>",
+    "background": "#1F2536",
+    "tags": [
+        "Trading",
+        "Backtesting",
+        "Cryptocurrency",
+        "Optimization",
+        "Stop Loss"
+    ],
+    "pictures": [],
+    "videos": [],
+    "url": "https://medium.com/p/6269a3af0c2a",
     "category": "Medium Article",
     "tab": "articles"
 }, {
