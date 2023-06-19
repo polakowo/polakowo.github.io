@@ -317,7 +317,7 @@ const cards = [{
     "category": "Medium Article",
     "tab": "articles"
 }, {
-    "img_url": "img/line-chart.svg",
+    "img_url": "img/line-chart.png",
     "title": "SuperFast SuperTrend",
     "description": "<p>In this article, I show how to design and implement a SuperTrend indicator, and gradually optimize it towards a never-seen performance using TA-Lib, Numba, and VectorBT PRO.</p>",
     "background": "#1F2536",
